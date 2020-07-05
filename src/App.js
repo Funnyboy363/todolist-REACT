@@ -1,6 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react';
 import TodoList from './TodoList'
 import uuidv4 from 'uuid/dist/v4'
+import './App.css'
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -50,11 +51,12 @@ function handleClearTodos() {
   return (
     <>
     
-    <input ref={todoNameRef} type="text" />
+    <input className="textinfo" ref={todoNameRef} type="text" />
+    <div>
     <button onClick={handleAddTodo}>Add Todo</button>
-    <button onClick={handleClearTodos}>Clear Complete</button>
-    <div>{todos.filter(todo => !todo.complete).length} Tasks not finished</div>
-    <TodoList todos={todos} toggleTodo={toggleTodo}/>
+    <button onClick={handleClearTodos}>Clear Complete</button></div>
+    <div className="todosincomplete">{todos.filter(todo => !todo.complete).length} Tasks Incomplete</div>
+   <div className="alltodos"> <TodoList todos={todos} toggleTodo={toggleTodo}/></div>
     </>
   )
   

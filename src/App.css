@@ -1,0 +1,68 @@
+body {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+  }
+
+
+ .textinfo {
+     padding: 20px;
+     width: 300px;
+     margin: 10px auto;
+     text-align: center;
+     font-size: 25px;
+     border-radius: 5px;
+     margin-top: 40px;
+ }
+
+
+  
+  button {
+      padding: 10px;
+      margin: 20px 10px;
+      border-radius: 7px;
+  }
+
+
+  .todosincomplete {
+      margin-bottom: 20px;
+      font-size: 20px;
+      color: lightgreen;
+  }
+
+  .alltodos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .todos {
+      margin: 5px 0;
+      border: 2px solid rgb(3, 155, 206);
+      background-color: rgb(59, 103, 122);
+      border-radius: 5px;
+      padding: 15px 0;
+      width: 100%;
+  }
+
+  
+
+  input.checkbox
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-right: 15px;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  font-size: 110%;
+  display: inline;
+}
