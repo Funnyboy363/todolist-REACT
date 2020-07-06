@@ -52,12 +52,14 @@ function handleClearTodos() {
     <>
     <h1>2DO</h1>
     <input className="textinfo" ref={todoNameRef} type="text" />
+    <p>Type a todo in the text block and "click add todo". Once the todo is finished, click on the check box. To remove todos, click "clear complete"</p>
     <div>
     <button onClick={handleAddTodo}>Add Todo</button>
     <button onClick={handleClearTodos}>Clear Complete</button></div>
     <div className="todosincomplete">{todos.filter(todo => !todo.complete).length} Tasks Incomplete</div>
 
-   <div className="alltodos"> <TodoList todos={todos} toggleTodo={toggleTodo}/></div>
+   <div className="alltodos"> <TodoList todos={todos} toggleTodo={toggleTodo}/>
+   </div>
     </>
   )
   

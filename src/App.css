@@ -9,6 +9,15 @@ body {
        font-family: 'Notable', sans-serif;
   }
 
+
+p {
+  font-size: 10px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+
  .textinfo {
      padding: 20px;
      width: 300px;
