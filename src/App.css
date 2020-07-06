@@ -4,6 +4,10 @@ body {
     text-align: center;
   }
 
+  h1 {
+      font-size: 55px;
+       font-family: 'Notable', sans-serif;
+  }
 
  .textinfo {
      padding: 20px;
@@ -12,7 +16,7 @@ body {
      text-align: center;
      font-size: 25px;
      border-radius: 5px;
-     margin-top: 40px;
+     margin-top: 10px;
  }
 
 
@@ -44,6 +48,8 @@ body {
       padding: 15px 0;
       width: 350px;
   }
+
+
 
   
 
