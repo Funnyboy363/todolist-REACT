@@ -37,12 +37,12 @@ body {
   }
 
   .todos {
-      margin: 5px 0;
+      margin: 5px auto;
       border: 2px solid rgb(3, 155, 206);
       background-color: rgb(59, 103, 122);
       border-radius: 5px;
       padding: 15px 0;
-      width: 100%;
+      width: 350px;
   }
 
   
